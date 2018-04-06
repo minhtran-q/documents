@@ -1,0 +1,21 @@
+1. Given an array of integers, count number of occurrence of number 9 in that array.
+2. Count the number of "xx" in the given string. We'll say that overlapping is allowed, so "xxx" contains 2 "xx"
+3. Remove all the sequence "yak" in a given string. The "yak" strings will not overlap.
+4. The number 6 is a truly great number. Given two int values, a and b, return true if either one is 6. Or if their sum or difference is 6.
+5. Given two arrays of integer sorted in increasing order, A and B, return true if all of the numbers in A appear in B.
+6. If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.
+7. Build a simple application to manage employee and department of a given company. Initialize the project with following information:
++ Employee: id, first name, last name, year of birth
++ Department: id, name, manager
++ Initialize 2 departments, each department has 8 employees
+
+The application supports following features:
+7.1 List out information of all departments
+7.2 List out all employee of particular department (based on department id)
+7.3 Print out the manager information of particular department
+7.4 View information of particular employee (based on employee id)
+7.5 Print department of particular employee (based on employee id)
+7.6 Update information of a given employee
+7.7 Delete employee according to employee id
+7.8 Move one employee to other department
+7.9 List the employees born after year 1990 for each department ( consider process each department on its own thread )
