@@ -1,65 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T08:30:56.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1PRH4hdnc1zznm_kBFU_" version="20.2.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-24T08:58:18.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_NxIIvGMwS1c04x7yuuj" version="20.2.6" type="github" pages="4">
   <diagram id="hYu6waVMLecW7c-SfMj-" name="Load Task">
-    <mxGraphModel dx="865" dy="483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZX4JJenaqiCQQKovVCNi-36" value=":LoadTaskHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="2" y="200" width="120" height="330" as="geometry" />
+          <mxGeometry x="2" y="160" width="120" height="370" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-36">
-          <mxGeometry x="55" y="60" width="10" height="260" as="geometry" />
+          <mxGeometry x="55" y="80" width="10" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="XF6njb276OfFw7SyglOA-2" value="trigger by time scheduler" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;dashed=1;fontSize=14;strokeWidth=2;entryX=-0.204;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="ZX4JJenaqiCQQKovVCNi-40" parent="ZX4JJenaqiCQQKovVCNi-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-122" y="81" as="sourcePoint" />
+            <mxPoint x="48" y="80" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-37" value=":DataDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="172" y="200" width="120" height="330" as="geometry" />
+          <mxGeometry x="172" y="160" width="120" height="370" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-37">
-          <mxGeometry x="55" y="60" width="10" height="80" as="geometry" />
+          <mxGeometry x="55" y="84" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-38" value=":AsyncBuildTaskHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="506" y="200" width="160" height="330" as="geometry" />
+          <mxGeometry x="506" y="160" width="160" height="370" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-38">
           <mxGeometry x="75" y="160" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-39" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="346" y="200" width="120" height="330" as="geometry" />
+          <mxGeometry x="346" y="160" width="120" height="370" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-39">
-          <mxGeometry x="55" y="60" width="10" height="60" as="geometry" />
+          <mxGeometry x="55" y="84" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZX4JJenaqiCQQKovVCNi-44" value="load available data" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;" edge="1" parent="1" target="ZX4JJenaqiCQQKovVCNi-37">
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-44" value="load available data" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=2;exitX=0.99;exitY=0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.045;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-40" target="ZX4JJenaqiCQQKovVCNi-41">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="65" y="260" as="sourcePoint" />
-            <mxPoint x="145" y="260" as="targetPoint" />
+            <mxPoint x="210" y="252" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZX4JJenaqiCQQKovVCNi-46" value="execute query" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.031;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" target="ZX4JJenaqiCQQKovVCNi-42">
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-46" value="execute query" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.031;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;exitX=0.94;exitY=0.169;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-41" target="ZX4JJenaqiCQQKovVCNi-42">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="238" y="272.98" as="sourcePoint" />
-            <mxPoint x="406.6700000000001" y="272.98" as="targetPoint" />
+            <mxPoint x="240" y="257" as="sourcePoint" />
+            <mxPoint x="406.6700000000001" y="296.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-52" value="return data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-42" target="ZX4JJenaqiCQQKovVCNi-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="320" as="sourcePoint" />
-            <mxPoint x="270" y="320" as="targetPoint" />
+            <mxPoint x="350" y="344" as="sourcePoint" />
+            <mxPoint x="270" y="344" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZX4JJenaqiCQQKovVCNi-53" value="return available data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeWidth=2;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-37" target="ZX4JJenaqiCQQKovVCNi-40">
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-53" value="return available data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeWidth=2;exitX=-0.127;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.946;entryY=0.256;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-41" target="ZX4JJenaqiCQQKovVCNi-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="190" y="340" as="sourcePoint" />
-            <mxPoint x="70" y="340" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="340" />
-            </Array>
+            <mxPoint x="210" y="310" as="sourcePoint" />
+            <mxPoint x="70" y="310" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-54" value=":InMemoryCache" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="681" y="200" width="138" height="330" as="geometry" />
+          <mxGeometry x="681" y="160" width="138" height="370" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeWidth=2;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-54">
-          <mxGeometry x="64" y="276" width="10" height="44" as="geometry" />
+          <mxGeometry x="64" y="313" width="10" height="44" as="geometry" />
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-56" value="submit each data on a thread" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.04;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-40" target="ZX4JJenaqiCQQKovVCNi-43">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -67,10 +71,10 @@
             <mxPoint x="596.3299999999999" y="363.27999999999986" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZX4JJenaqiCQQKovVCNi-60" value="return built tasks" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.772;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-43" target="ZX4JJenaqiCQQKovVCNi-40">
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-60" value="return built tasks" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.2;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;entryX=1.149;entryY=0.634;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-43" target="ZX4JJenaqiCQQKovVCNi-40">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="460" as="sourcePoint" />
-            <mxPoint x="60" y="476" as="targetPoint" />
+            <mxPoint x="80" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZX4JJenaqiCQQKovVCNi-65" value="put tasks to cache" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.093;entryY=0.117;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.02;exitY=0.856;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" target="ZX4JJenaqiCQQKovVCNi-64" parent="1" source="ZX4JJenaqiCQQKovVCNi-40">
@@ -88,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LIcxh48gzRsA23Tk4oKh" name="Build Task">
-    <mxGraphModel dx="1456" dy="351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1493" dy="609" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,7 +189,7 @@
           <mxGeometry x="197.5" y="190" width="125" height="50" as="geometry" />
         </mxCell>
         <mxCell id="-AmhJLkgyH5y68KKBLdD-20" value="for &lt;b&gt;Item, Trip, Bad Item, Bad Trip&lt;/b&gt;&amp;nbsp;only" style="shape=note;strokeWidth=2;fontSize=14;size=21;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="517.5" y="190" width="125" height="50" as="geometry" />
+          <mxGeometry x="500" y="170" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -195,6 +199,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uqJjkbT5ebDjZZT6aTRx-1" value=":LockTaskHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="120" height="300" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
