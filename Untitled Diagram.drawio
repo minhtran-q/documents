@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T03:57:15.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="20.2.6" etag="S6TRnhCIgavhj7ZtCA5w" type="github"><diagram id="hYu6waVMLecW7c-SfMj-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-24T06:48:33.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="vGFePPtBHH5vRLG9gpbr" version="20.2.6" type="github">
+  <diagram id="hYu6waVMLecW7c-SfMj-" name="Load Task">
+    <mxGraphModel dx="865" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-36" value=":LoadTaskHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="190" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-36">
+          <mxGeometry x="55" y="60" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-37" value=":DataDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-37">
+          <mxGeometry x="55" y="60" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-38" value=":AsyncBuildTaskHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="647" y="190" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-38">
+          <mxGeometry x="65" y="160" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-39" value=":Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="448" y="190" width="120" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZX4JJenaqiCQQKovVCNi-39">
+          <mxGeometry x="55" y="60" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-44" value="load available data" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="ZX4JJenaqiCQQKovVCNi-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="85" y="250" as="sourcePoint" />
+            <mxPoint x="165" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-46" value="execute query" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-41">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="295" y="270" as="sourcePoint" />
+            <mxPoint x="500" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-52" value="return data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZX4JJenaqiCQQKovVCNi-53" value="return available data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="ZX4JJenaqiCQQKovVCNi-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="330" as="sourcePoint" />
+            <mxPoint x="90" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
