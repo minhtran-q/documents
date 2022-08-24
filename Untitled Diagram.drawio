@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T08:58:18.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="_NxIIvGMwS1c04x7yuuj" version="20.2.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-24T09:01:17.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="82cdm7zTJRQ1FJ0AiY8d" version="20.2.6" type="github" pages="4">
   <diagram id="hYu6waVMLecW7c-SfMj-" name="Load Task">
     <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,7 +92,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LIcxh48gzRsA23Tk4oKh" name="Build Task">
-    <mxGraphModel dx="1493" dy="609" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1698" dy="724" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,6 +111,13 @@
             <Array as="points">
               <mxPoint x="115" y="305" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1SqLWvCLB8IzCbkXV1kI-4" value="build task" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;dashed=1;fontSize=14;strokeWidth=2;" edge="1" parent="CjhIisI_PLPPvc8PvrwN-1">
+          <mxGeometry x="-0.5417" relative="1" as="geometry">
+            <mxPoint x="-74" y="50" as="sourcePoint" />
+            <mxPoint x="85" y="50" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CjhIisI_PLPPvc8PvrwN-2" value=":DataDao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;strokeWidth=2;fontStyle=1" vertex="1" parent="1">
