@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T08:16:27.481Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="TABPMunKbssnMvs3Az8k" version="20.2.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-24T08:17:45.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1Svapsv9kTHv0yDSpbJ3" version="20.2.6" type="github" pages="4">
   <diagram id="hYu6waVMLecW7c-SfMj-" name="Load Task">
     <mxGraphModel dx="865" dy="483" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LIcxh48gzRsA23Tk4oKh" name="Build Task">
-    <mxGraphModel dx="1865" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1321" dy="276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,9 @@
         </mxCell>
         <mxCell id="CjhIisI_PLPPvc8PvrwN-3" value=":MetaDataService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="360" y="280" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-AmhJLkgyH5y68KKBLdD-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=14;strokeWidth=2;" vertex="1" parent="CjhIisI_PLPPvc8PvrwN-3">
+          <mxGeometry x="55" y="160" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CjhIisI_PLPPvc8PvrwN-4" value=":MerchantService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="520" y="280" width="120" height="320" as="geometry" />
@@ -121,6 +124,16 @@
         <mxCell id="As_j8M2XcO4ThX4iB0u6-7" value="return extraction data (if any)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=14;strokeWidth=2;entryX=1.048;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="As_j8M2XcO4ThX4iB0u6-5" parent="1" target="CjhIisI_PLPPvc8PvrwN-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="185" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AmhJLkgyH5y68KKBLdD-2" value="create metadata" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=14;strokeWidth=2;exitX=1.01;exitY=0.427;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="-AmhJLkgyH5y68KKBLdD-1" parent="1" source="CjhIisI_PLPPvc8PvrwN-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-AmhJLkgyH5y68KKBLdD-3" value="return metadata" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=14;strokeWidth=2;entryX=1.238;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="-AmhJLkgyH5y68KKBLdD-1" parent="1" target="CjhIisI_PLPPvc8PvrwN-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="516" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
